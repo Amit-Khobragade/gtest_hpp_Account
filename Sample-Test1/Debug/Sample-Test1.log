@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  test.cpp
+test.obj : error LNK2019: unresolved external symbol "public: __thiscall Account::Account(void)" (??0Account@@QAE@XZ) referenced in function "private: virtual void __thiscall AccountTest_TestEmptyAccount_Test::TestBody(void)" (?TestBody@AccountTest_TestEmptyAccount_Test@@EAEXXZ)
+test.obj : error LNK2019: unresolved external symbol "public: void __thiscall Account::deposit(double)" (?deposit@Account@@QAEXN@Z) referenced in function "public: virtual void __thiscall AccountTestFixture::SetUp(void)" (?SetUp@AccountTestFixture@@UAEXXZ)
+test.obj : error LNK2019: unresolved external symbol "public: void __thiscall Account::withdraw(double)" (?withdraw@Account@@QAEXN@Z) referenced in function "private: virtual void __thiscall AccountTestFixture_TestWithdrawOK_Test::TestBody(void)" (?TestBody@AccountTestFixture_TestWithdrawOK_Test@@EAEXXZ)
+test.obj : error LNK2019: unresolved external symbol "public: double __thiscall Account::getBalance(void)const " (?getBalance@Account@@QBENXZ) referenced in function "private: virtual void __thiscall AccountTest_TestEmptyAccount_Test::TestBody(void)" (?TestBody@AccountTest_TestEmptyAccount_Test@@EAEXXZ)
+test.obj : error LNK2019: unresolved external symbol "public: void __thiscall Account::transfer(class Account &,double)" (?transfer@Account@@QAEXAAV1@N@Z) referenced in function __catch$?TestBody@AccountTestFixture_TestWithdrawInsufficientFunds_Test@@EAEXXZ$1
+D:\cpp\GOOGLE TESTS\AccountGtest\Project1\Debug\Sample-Test1.exe : fatal error LNK1120: 5 unresolved externals
